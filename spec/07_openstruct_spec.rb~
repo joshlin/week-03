@@ -16,10 +16,8 @@ describe "Current Administration" do
     # Then you can assign any properties on the OpenStruct
     administration.president = "Barack Obama"
     
-    administration.cabinet = OpenStruct.new
+    administration.cabinet = "present"
     #state_department = "Hillary Clinton"
-
-    administration.cabinet.state_department = "Hillary Clinton"
     
     administration.vice_president = "Joe Biden"
     
